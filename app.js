@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 app.get('/demo', (req, res) => {
 	res.set('X-hello-world-header');
 	res.status(418);
-	res.send('You just got a hello world header. And a teapot response.');
+	res.send('You just got a hello world header. And a teapot response. And yet more updates.');
 });
 
 
